@@ -1,9 +1,14 @@
 import { useDispatch, useSelector } from "react-redux"
-import { addVoteOf } from "../reducers/anecdoteReducer"
+import { addVoteOf } from "../store/store"
 
 const AnecdoteList = () => {
   const dispatch = useDispatch()
-  const anecdotes = useSelector(state => state)
+  const anecdotesArray = useSelector(state => state.anecdotes)
+  const anecdotes = []
+  // eslint-disable-next-line array-callback-return
+  anecdotesArray.map(item => {
+    anecdotes.push(item)
+  })
 
   return (
     <>
