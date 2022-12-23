@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client'
 import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 import App from './App'
-import anecdoteReducer from './store/store'
+import anecdoteStore from './store/anecdoteStore'
+import notificationStore from './store/notificationStore'
 
 const store = configureStore({
   reducer: {
-    anecdotes: anecdoteReducer
+    anecdotes: anecdoteStore,
+    notifications: notificationStore
   }
 })
 
