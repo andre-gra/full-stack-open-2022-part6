@@ -1,5 +1,5 @@
 {
-  "anecdotes":[
+  "anecdotes": [
     {
       "content": "If it hurts, do it more often",
       "id": "47145",
@@ -29,6 +29,98 @@
       "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
       "id": "98312",
       "votes": 0
+    },
+    {
+      "content": "ciao",
+      "important": false,
+      "id": "hYD7PhF"
+    },
+    {
+      "content": "dddd",
+      "important": false,
+      "id": "EqopvcD"
+    },
+    {
+      "content": "erer",
+      "important": false,
+      "id": "rHfnBly"
+    },
+    {
+      "content": "ffff",
+      "important": false,
+      "id": "TktKDi3"
+    },
+    {
+      "content": "fff",
+      "important": false,
+      "id": "1QPNdWc"
+    },
+    {
+      "content": "gtht",
+      "votes": 0,
+      "id": "O92OuvW"
+    },
+    {
+      "content": "ddd",
+      "votes": 0,
+      "id": "Iuo1T2G"
+    },
+    {
+      "content": "ggg",
+      "votes": 0,
+      "id": "UNm39TF"
+    },
+    {
+      "content": "jkljl",
+      "votes": 0,
+      "id": "3_ZlH7R"
+    },
+    {
+      "content": "fhh",
+      "votes": 0,
+      "id": "ExEfzWp"
+    },
+    {
+      "content": "davvero",
+      "votes": 0,
+      "id": "YFdjRCr"
+    },
+    {
+      "content": "spera",
+      "votes": 0,
+      "id": "nGtLoDG"
+    },
+    {
+      "content": "fgfhkkkk",
+      "votes": 0,
+      "id": "E-6quJ_"
+    },
+    {
+      "content": "dsdfsd",
+      "votes": 0,
+      "id": "45IWCr-"
+    },
+    {
+      "content": "fgfg",
+      "votes": 0,
+      "id": "IsAg1QB"
+    },
+    {
+      "content": "rtrt",
+      "votes": 0,
+      "id": "jVw4lWd"
+    },
+    {
+      "content": "fffddswsaaa",
+      "id": "rsB4tWo"
+    },
+    {
+      "content": "yuyi",
+      "id": "HQCTy_b"
+    },
+    {
+      "content": "qwe",
+      "id": "fXTh77k"
     }
   ]
 }
