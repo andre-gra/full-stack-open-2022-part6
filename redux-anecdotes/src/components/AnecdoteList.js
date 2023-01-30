@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux"
-import { addVoteOf } from "../store/store"
+import { addVote } from "../store/store"
 import { showVoteMessage, resetMessage } from "../store/store"
 
 const AnecdoteList = () => {
@@ -11,9 +11,9 @@ const AnecdoteList = () => {
     (selector.filters.length > 0) ? (item.content.includes(selector.filters) && anecdotes.push(item)): anecdotes.push(item)
   })
 
-  const addVote = (id, content) => {
-    dispatch(addVoteOf(id))
-    dispatch(showVoteMessage(content))
+  const addVoteF = (anecdote) => {
+    dispatch(addVote(anecdote))
+    dispatch(showVoteMessage(anecdote.content))
     setTimeout(() => {
       dispatch(resetMessage())
     }, 5000);
@@ -28,7 +28,7 @@ const AnecdoteList = () => {
           </div>
           <div>
             has {anecdote.votes}
-            <button onClick={() => addVote(anecdote.id, anecdote.content)}>vote</button>
+            <button onClick={() => addVoteF(anecdote)}>vote</button>
           </div>
         </div>
       )}
