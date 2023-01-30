@@ -86,6 +86,24 @@ const notificationSlice = createSlice({
   }
 })
 
+export const setVoteNotification = (content, time) => {
+  return async dispatch => {
+    dispatch(showVoteMessage(content))
+    setTimeout(() => {
+      dispatch(resetMessage())
+    }, time * 1000) 
+  }
+}
+
+export const setCreateNotification = (content, time) => {
+  return async dispatch => {
+    dispatch(showCreateMessage(content))
+    setTimeout(() => {
+      dispatch(resetMessage())
+    }, time * 1000) 
+  }
+}
+
 const filterInitialState = { value: '' }
 
 const filterSlice = createSlice({
